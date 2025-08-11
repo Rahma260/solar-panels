@@ -1,0 +1,432 @@
+/* Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px;
+    flex-wrap: wrap;
+  }
+
+  .section5 {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .section5::before {
+    height: auto;
+    bottom: 0;
+  }
+
+  .navbar img {
+    height: 40px;
+    margin-right: 0;
+  }
+
+  .menu-icon {
+    display: block;
+    order: 1;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--Green);
+    position: absolute;
+    top: 70px;
+    left: 0;
+    padding: 10px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+  }
+
+  #menu-toggle:checked~.nav-links {
+    display: flex;
+  }
+
+  .nav-links a {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    margin: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .contact-info {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 0;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .sec5div {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .sec5div h2 {
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    padding: 40px 20px;
+  }
+
+  .top {
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottom .copyright {
+    margin: 20px 0 0;
+    text-align: center;
+  }
+
+  .firstlist ul,
+  .secondlist ul {
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .Subscribe .input {
+    width: 100%;
+  }
+
+  .sec4cards {
+    margin: 20px;
+    flex-direction: column;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card1 img,
+  .card2 img,
+  .card3 img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .section4 .sec4cards h2,
+  .section4 .sec4cards p,
+  .section4 .sec4cards a {
+    margin: 10px;
+  }
+
+  .section4 .sec4cards p {
+    margin-bottom: auto;
+  }
+
+  /* Other mobiles */
+  .introduction p,
+  .introduction h1,
+  .section3 p {
+    margin-left: 0;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .introduction h1 {
+    margin-left: 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .introbutton,
+  .introduction button,
+  .section3 button {
+    margin: 15px auto 0;
+    display: block;
+  }
+
+  .section2 {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .section2 .sec2div1,
+  .section2 .images {
+    width: 100%;
+    padding: 10px;
+    margin-left: 0;
+  }
+
+  .section2 .images {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section2 .images .bg-image {
+    width: 80%;
+  }
+
+  .section2 .images .image2 {
+    top: 50%;
+    width: 60%;
+  }
+
+  .sec7cards {
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+  }
+
+  .section7 .card {
+    width: 100%;
+    height: auto;
+  }
+
+  .section6 {
+    flex-direction: column;
+  }
+
+  .section6 .left {
+    margin: 20px;
+  }
+
+  .section6 .right {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+
+  .section8 {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .section8 .left,
+  .section8 .right {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .section8 .right .image {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section8 .right .image img {
+    width: 20%;
+  }
+
+  .top {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .firstlist ul,
+  .secondlist ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .Subscribe .input input {
+    width: 100%;
+    border-radius: 50px;
+    border-right: 2px solid var(--White);
+    margin-bottom: 10px;
+  }
+
+  .Subscribe .input button {
+    border-radius: 50px;
+    width: 100%;
+  }
+}
+
+/* iPad */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .navbar {
+    padding: 15px 30px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact-info {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    order: 3;
+    margin-top: 15px;
+  }
+
+  .sec4cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: calc(50% - 20px);
+    min-height: 450px;
+    margin-bottom: 20px;
+  }
+
+  .card1 img,
+  .card2 img,
+  .card3 img {
+    height: 200px;
+  }
+
+  .footer {
+    padding: 40px 30px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .top {
+    gap: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .Subscribe {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .bottom {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .bottom .copyright {
+    margin: 20px 0 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .firstlist ul,
+  .secondlist ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .navbar,
+  .footer,
+  .sec4cards {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+}
+
+/* iPad Pro */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .sec4cards {
+    gap: 30px;
+    margin: 30px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: calc(33.333% - 20px);
+    min-height: 400px;
+  }
+
+  .footer {
+    padding: 50px 40px;
+  }
+
+  .top {
+    gap: 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .sec4cards {
+    gap: 15px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: calc(33.333% - 15px);
+    min-height: 380px;
+  }
+
+  .footer {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Title {
+    font-size: 2rem;
+  }
+
+  .sec3speech .sec3title {
+    font-size: 2rem;
+  }
+
+  .section8 .left h1 {
+    font-size: 2rem;
+  }
+
+  .section8 .left span {
+    font-size: 4rem;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  .navbar {
+    padding: 10px;
+  }
+
+  .navbar img {
+    height: 35px;
+  }
+
+  /* Smaller mobiles */
+  .sec5div h2 {
+    font-size: 1.3rem;
+  }
+
+  .section4 .sec4cards h2 {
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    padding: 30px 15px;
+  }
+
+  .firstlist ul,
+  .secondlist ul {
+    gap: 15px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    min-height: 350px;
+  }
+}
